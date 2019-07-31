@@ -1,0 +1,53 @@
+/* 
+body{
+    border-radius: ;
+} */
+.image-center {
+    text-align: center;
+  }
+
+/* .card-columns {
+
+    @include media-breakpoint-only(lg) {
+        column-count: 2;
+    }
+    @include media-breakpoint-only(md) {
+        column-count: 2;
+    }
+} */
+
+.card-columns_sm {
+    @include media-breakpoint-only(xl) {
+        column-count: 2;
+    }
+
+    @include media-breakpoint-only(lg) {
+        column-count: 2;
+    }
+    @include media-breakpoint-only(md) {
+        column-count: 2;
+    }
+}
+
+/* Theme Decorations: */
+.thmgrad{
+    background: linear-gradient(to right,rgb(179, 176, 176), #17a3b8);
+}
+.thmgradrv{
+    background: linear-gradient(to left,rgb(179, 176, 176), #17a3b8);
+}
+.thmgradlt{
+    
+    background: linear-gradient(to right,rgb(212, 209, 209), #bceef6);
+}
+.thmgradltrv{
+    
+    background: linear-gradient(to left,rgb(212, 209, 209), #bceef6);
+}
+.thmgradxlt{
+    background: linear-gradient(to right,rgb(221, 218, 218), #e9f9fc);
+}
+
+.bsz{
+    border-radius: 3px;
+}
