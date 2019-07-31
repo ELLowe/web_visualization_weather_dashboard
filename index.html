@@ -48,73 +48,83 @@
           </nav>
     <!-- NAVBAR END -->
 
+    <!-- Header -->
     <h1 class="p-3 image-center thmgradlt">Weather Analysis</h1>
     
     <!-- About Statement, explaining the project: -->
-    <div class="card border-0">
-      <div class="card-header font-weight-bold thmgrad">
-        About This Project:
+    <div class="col-lg-12 thmgrad">
+      <div class="card-header text-center font-weight-bold thmgrad">
+        About This Project
       </div>
-      <div class="card-body thmgradlt">
-        <blockquote class="blockquote mb-0">
+    </div>
+
+      
+      <div class="col-lg-12 thmgradlt">
+        <blockquote class="blockquote text-center m-4 mb-0">
           <p>
             Approaching the equator one assumes the weather will be warmer. This, however, may not be the case.
             Can we prove or disprove that the weather is warmest nearer to to the Equator by analyzing the weather
             data from a series of OpenWeather APIs?
           </p>
+          <a href="https://openweathermap.org/api"  target="_blank" class="btn btn-info">OpenWeatherMap API</a>
         </blockquote>
-        <a href="https://openweathermap.org/api"  target="_blank" class="btn btn-info">OpenWeatherMap API</a>
+
       </div>
-    </div>
+
+
     
     <!--START Links to each visualizations page -->
-    <div class="card border-0 thmgrad">
-        <div class="card-header font-weight-bold thmgrad">
-        Visualizations:
+
+    <div class="col-lg-12 thmgrad">
+  
+        <div class="card-header text-center font-weight-bold thmgrad">
+          Visualizations
         </div>
-        <div class="shadow p-3 mb-5 bg-white thmgradlt">
-        <div class="card-body thmgradlt">
 
-        <div class="card-deck">
-          <div class="card" style="width: 18rem;">
-            <img src="Maximum Temperature In Cities Around The World.png" class="card-img-top" alt="Maximum Temperature In Cities Around The World">
-            
-            <div class="card-body image-center">
-              <a href="./lat_temp.html" target="_blank" class="btn btn-info">Latitude vs. Max Temperature</a>
+        <div class="row no-gutters">  
+
+          <div class="col p-3">
+            <div class="card">
+              <img src="Maximum Temperature In Cities Around The World.png" class="card-img-top" alt="Maximum Temperature In Cities Around The World">                
+              <div class="card-body image-center">
+                <a href="./lat_temp.html" target="_blank" class="btn btn-info">Latitude vs. Max Temperature</a>
+              </div>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="Humidity In Cities Around The World.png" class="card-img-top" alt="Humidity In Cities Around The World">
-            
-            <div class="card-body image-center">
+          <div class="col p-3">
+            <div class="card">
+              <img src="Humidity In Cities Around The World.png" class="card-img-top" alt="Humidity In Cities Around The World">                  
+              <div class="card-body image-center">
                 <a href="./lat_humidity.html" target="_blank" class="btn btn-info">Latitude vs. Humidity</a>
+              </div>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="Percent Cloudiness In Cities Around The World.png" class="card-img-top" alt="Percent Cloudiness In Cities Around The World">
-            
-            <div class="card-body image-center">
+          <div class="col p-3">
+            <div class="card">
+              <img src="Percent Cloudiness In Cities Around The World.png" class="card-img-top" alt="Percent Cloudiness In Cities Around The World">
+              <div class="card-body image-center">
                 <a href="./lat_cloudiness.html" target="_blank" class="btn btn-info">Latitude vs. Cloudiness</a>
+              </div>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
+          <div class="col p-3">
+            <div class="card">
               <img src="Wind Speed In Cities Around The World.png" class="card-img-top" alt="Wind Speed In Cities Around The World">  
-            
               <div class="card-body image-center">
                 <a href="./lat_windspeed.html" target="_blank" class="btn btn-info">Latitude vs. Wind Speed</a>
+              </div>
             </div>
           </div>
 
-          </div>
-          </div>
         </div>
       </div>
-      <!--  END Links to each visualizations page -->
+    
+    <!--END Links to each visualizations page -->
 
-    <!-- Optional JavaScript -->
+    <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -34,7 +34,7 @@
                 </li>
                 <li class="nav-item dropdown font-weight-bold">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
+                    Plots
                   </a>
                   <div class="dropdown-menu thmgradlt" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item font-weight-bold" href="./lat_temp.html">Temperature</a>
@@ -48,9 +48,95 @@
           </nav>
     <!-- NAVBAR END -->
 
-    <h1 class="p-3 thmgradlt">Weather Analysis: Windspeed</h1>
+    <!-- HEADER -->
+    <h1 class="p-3 text-center thmgradlt">Weather Analysis: Wind Speed</h1>
 
-    <!-- Optional JavaScript -->
+    <!-- START row and col creation for main body -->
+
+        <div class="row justify-content-around">
+        
+          <!-- START Main image: -->
+
+        <div class="col-lg-6 thmgrad rounded m-1">
+
+          <div class="card-header text-center font-weight-bold thmgrad">
+            Wind Speed
+          </div>
+
+          <div class="row">
+              <div class="col">
+                <div class="card-body thmgrad">
+                  <img src="Wind Speed In Cities Around The World.png" class="card-img-top" alt="Wind Speed In Cities Around The World">
+                  <blockquote class="blockquote text-center p-1 mb-0">
+                    <p>
+                      As you can see, it seems that the global wind speed does not appear to have any connection to the equator.
+                      It is both cloudy and clear near and far.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+          </div> 
+
+        </div>
+
+        <!-- END Main Image -->
+
+        <!--START Links to each visualizations page -->
+
+        <div class="col-lg-4 m-1 thmgradrv rounded">
+          
+            <div class="card-header text-center font-weight-bold thmgradrv">
+              Visualizations
+            </div>
+
+            <div class="row no-gutters">  
+
+              <div class="col p-3">
+                <div class="card">
+                  <img src="Maximum Temperature In Cities Around The World.png" class="card-img-top" alt="Maximum Temperature In Cities Around The World">                
+                  <div class="card-body image-center">
+                    <a href="./lat_temp.html" target="_blank" class="btn btn-info">Latitude vs. Max Temperature</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col p-3">
+                <div class="card">
+                  <img src="Humidity In Cities Around The World.png" class="card-img-top" alt="Humidity In Cities Around The World">                  
+                  <div class="card-body image-center">
+                    <a href="./lat_humidity.html" target="_blank" class="btn btn-info">Latitude vs. Humidity</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col p-3">
+                <div class="card">
+                  <img src="Percent Cloudiness In Cities Around The World.png" class="card-img-top" alt="Percent Cloudiness In Cities Around The World">
+                  <div class="card-body image-center">
+                    <a href="./lat_cloudiness.html" target="_blank" class="btn btn-info">Latitude vs. Cloudiness</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col p-3">
+                <div class="card">
+                  <img src="Wind Speed In Cities Around The World.png" class="card-img-top" alt="Wind Speed In Cities Around The World">  
+                  <div class="card-body image-center">
+                    <a href="./lat_windspeed.html" target="_blank" class="btn btn-info">Latitude vs. Wind Speed</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--END Links to each visualizations page -->
+
+        </div>
+        <!-- END row and col creation for main body -->
+        
+
+    <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
