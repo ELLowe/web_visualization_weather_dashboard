@@ -11,9 +11,11 @@
     <!-- Esther's CSS -->
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body class = "thmgradlt">
+
+  <body>
     <!-- It's good to put all the code before the scripts so the user experience is smooth and fast. -->
-    <!-- First comes the Navbar from Bootstrap! -->
+    <!-- First comes a navbar from Bootstrap! -->
+    
 
     <!-- NAVBAR START -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light thmgrad">
@@ -34,7 +36,7 @@
                 </li>
                 <li class="nav-item dropdown font-weight-bold">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
+                    Plots
                   </a>
                   <div class="dropdown-menu thmgradlt" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item font-weight-bold" href="./lat_temp.html">Temperature</a>
@@ -47,8 +49,43 @@
             </div>
           </nav>
     <!-- NAVBAR END -->
+    
+    <!--HEADER and BACKGROUND IMAGE: -->
+    <div class="view" style="background-image: url('world_map_of_cities.JPG'); background-size: cover; background-position: center center;">
 
-    <h1 class="p-3 thmgradlt">Weather Analysis: Comparisons</h1>
+    <h1 class="p-3 image-center visibilityeighty thmgradlt">Weather Analysis: Comparisons</h1>
+    
+    <!--START Columns with Fixed background image -->
+
+
+    <!-- IMAGE GRID AREA -->
+    <div class="container mx-auto visibilityeighty rounded">
+        <div class="row justify-content-md-center">
+    
+          <div class="col p-3 image-center">
+            <a href="./lat_temp.html" target="_blank"><img class="btn btn-info comparisons-image" src="Maximum Temperature In Cities Around The World.png"></a>
+          </div>
+
+          <div class="col p-3 image-center">
+            <a href="./lat_humidity.html" target="_blank"><img class="btn btn-info comparisons-image" src="Humidity In Cities Around The World.png"></a>
+          </div>
+
+          <!-- SPACER -->
+          <div class="w-100"></div>
+
+          <div class="col p-3 image-center">
+            <a href="./lat_cloudiness.html" target="_blank"><img class="btn btn-info comparisons-image" src="Percent Cloudiness In Cities Around The World.png"></a>
+          </div>
+          <div class="col p-3 image-center">
+            <a href="./lat_windspeed.html" target="_blank"><img class="btn btn-info comparisons-image" src="Wind Speed In Cities Around The World.png"></a>
+          </div>
+        </div>
+    
+      </div>
+      <!-- IMAGE GRID AREA END -->
+      <div class="p-1"></div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
