@@ -54,3 +54,6 @@
 .background_special{
     max-height: 100% !important;
 }
+.drop_special{
+    left:-65px;
+}
